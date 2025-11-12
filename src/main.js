@@ -1,6 +1,19 @@
-// Palmen-Schwimmbad – JavaScript Basis
+// Palmen-Schwimmbad – JavaScript Basis + kleine Extras
 console.log("Palmen-Schwimmbad Website gestartet");
 
-// Mini-Test: heutiges Datum in der Konsole anzeigen
-const today = new Date().toLocaleDateString("de-DE");
-console.log("Heute ist:", today);
+// Jahreszahl automatisch setzen
+document.getElementById("year").textContent = new Date().getFullYear();
+
+// Sanftes Scrollen für Nav-Links
+document.querySelectorAll('a[href^="#"]').forEach(a=>{
+  a.addEventListener("click", (e)=>{
+    const id = a.getAttribute("href");
+    const el = document.querySelector(id);
+    if(el){
+      e.preventDefault();
+      el.scrollIntoView({ behavior:"smooth", block:"start" });
+      history.pushState(null,"",id);
+    }
+  });
+});
+
