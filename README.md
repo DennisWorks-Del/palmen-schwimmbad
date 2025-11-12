@@ -1,4 +1,5 @@
 # 🏝️ Palmen Schwimmbad – Mini-Webseite
+**🌐 Live-Demo:** [Hier ansehen](https://dennisworks-del.github.io/palmen-schwimmbad/)
 
 Kleine Übungswebseite aus meiner Umschulung zum Fachinformatiker für Anwendungsentwicklung.  
 Ziel: Eine moderne, klare Informationsseite für ein fiktives Schwimmbad (Öffnungszeiten, Preise, Lage, Kontakt).
