@@ -1,0 +1,44 @@
+/* ===== Allgemeine Seitengestaltung ===== */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9f7f6; /* sanftes Türkisblau */
+    color: #222; /* dunkles Grau für Text */
+}
+
+/* ===== Kopfbereich (Header) ===== */
+header {
+    background-color: #00bfa5;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header .logo {
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+/* ===== Navigation ===== */
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* ===== Überschriften ===== */
+h1, h2, h3 {
+    color: #004d40;
+}
+
+/* ===== Inhalt ===== */
+main {
+    padding: 20px;
+    line-height: 1.6;
+}
